@@ -1,50 +1,235 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
     <title>Jorge's Portfolio</title>
-</head>
-<body>
+  </head>
+  <body>
     <!-- Navigation Bar -->
     <nav>
-        <div id="home">
-            <div class="profile_name">
-                Jorge Ramírez
-            </div>
-            <div class="contact_info">
-                <img src="imgs/envelope.png" alt="https://www.flaticon.com/free-icon/envelope_25236?term=envelope&page=1&position=3&origin=search&related_id=25236">
-                jorgelurd11@outlook.com
-            </div>
-            <div style="clear:both;"></div>
-            <div class="contact_info">
-                <img src="imgs/phone-call.png" alt="https://www.flaticon.com/free-icon/phone-call_3059446?term=phone&page=1&position=6&origin=search&related_id=3059446">
-                +34 600 90 71 84
-            </div>
+      <div id="home">
+        <div class="profile_name">
+          Jorge Ramírez
+          <div class="contact_info">
+            <img
+              src="imgs/envelope.png"
+              alt="https://www.flaticon.com/free-icon/envelope_25236?term=envelope&page=1&position=3&origin=search&related_id=25236"
+            />
+            jorgelurd11@outlook.com
+          </div>
+          <div style="clear: both"></div>
+          <div class="contact_info">
+            <img
+              src="imgs/phone-call.png"
+              alt="https://www.flaticon.com/free-icon/phone-call_3059446?term=phone&page=1&position=6&origin=search&related_id=3059446"
+            />
+            +34 600 90 71 84
+          </div>
         </div>
 
-        <div class="topdiv">
-            <a href="#about-me" class="topmenu">About Me</a>
-            <a href="#skills" class="topmenu">Skills</a>
-            <a href="#projects" class="topmenu">Projects</a>
-            <a href="#recommendations" class="topmenu">Recommendations</a>
-        </div>
+      <div class="topdiv">
+        <a href="#about-me" class="topmenu">About Me</a>
+        <a href="#skills" class="topmenu">Skills</a>
+        <a href="#projects" class="topmenu">Projects</a>
+        <a href="#recommendations" class="topmenu">Recommendations</a>
+      </div>
     </nav>
 
     <!-- About Me -->
     <section id="about-me" class="container">
-        <div>
-            <img src="imgs/user.png" alt="https://www.flaticon.com/free-icon/user_9187532?term=image+profile&page=1&position=7&origin=search&related_id=9187532" class="image_profile">
+      <div>
+        <img
+          src="imgs/user.png"
+          alt="https://www.flaticon.com/free-icon/user_9187532?term=image+profile&page=1&position=7&origin=search&related_id=9187532"
+          class="image_profile"
+        />
+      </div>
+
+      <div>
+        <h1>Hi, I'm Jorge Ramírez! 👋</h1>
+        <p>
+          I'm a Systems Engineering student with no experience working on the
+          software engineering industry but I like to learn a lot about what I'm
+          passionate for, that is web development.<br />
+          I'm willing to become a Full-Stack web developer. Now a days my
+          knowledge is essentially on HTML, CSS, JavaScript, PHP, SQL and
+          Python, so I'm more confortable working on Front-End development right
+          now because I know more about it, I will learn more about Back-End
+          development.
+        </p>
+      </div>
+    </section>
+
+    <!-- Skills -->
+    <section id="skills">
+      <h2>Skills</h2>
+      <div style="clear: both"></div>
+
+      <div class="all_skills">
+        <div class="skill">
+          <img
+            src="imgs/html.png"
+            alt="https://icon-icons.com/es/icono/archivo-tipo-html/130541"
+          />
+          <h6>HTML</h6>
+          <p>1 year experience. Personal projects.</p>
         </div>
 
-        <div>
-            <h1>Hi, I'm Jorge Ramírez! 👋</h1>
-            <p>I'm a Systems Engineering student with no experiencie working on the software engineering industry but I like
-                to learn a lot about what I'm passionate for, that is web development.<br/>
-                I'm willing to become a Full-Stack web developer. Now a days my knowledge is essentially on HTML, CSS, JavaScript, PHP, SQL and Python, so I'm more confortable working on Front-End development right now because I know more about it, I will learn more about Back-End development.
-            </p>
+        <div class="skill">
+          <img
+            src="imgs/css.png"
+            alt="https://icon-icons.com/es/icono/archivo-tipo-css/130661"
+          />
+          <h6>CSS</h6>
+          <p>1 year experience. Personal projects.</p>
         </div>
+
+        <div class="skill">
+          <img
+            src="imgs/js.png"
+            alt="https://icon-icons.com/es/icono/javascript-original-logo/146455"
+          />
+          <h6>JavaScript</h6>
+          <p>1 year experience. Personal projects.</p>
+        </div>
+
+        <div class="skill">
+          <img
+            src="imgs/php.png"
+            alt="https://icon-icons.com/es/icono/archivo-tipo-php/130266"
+          />
+          <h6>PHP</h6>
+          <p>I have made 2 simple projects in 3 months.</p>
+        </div>
+
+        <div class="skill">
+          <img
+            src="imgs/mysql.png"
+            alt="https://icon-icons.com/es/icono/mysql-original-marca-logo/146417"
+          />
+          <h6>MySQL</h6>
+          <p>I have made 2 projects with PHP in 3 months.</p>
+        </div>
+
+        <div class="skill">
+          <img
+            src="imgs/python.png"
+            alt="https://icon-icons.com/es/icono/archivo-tipo-python/130221"
+          />
+          <h6>Python</h6>
+          <p>
+            I have been doing some free courses with a little of simple
+            projects.
+          </p>
+        </div>
+      </div>
     </section>
-</body>
+
+    <!-- Projects -->
+    <section class="projects" id="projects">
+      <h2>Projects</h2>
+      <div style="clear: both"></div>
+
+      <div class="projects-container" id="projects-container">
+        <div class="project-card">
+          <h3>Calculator</h3>
+          <ul>
+            <li>Developed a simple calculator in PHP.</li>
+          </ul>
+        </div>
+
+        <hr />
+
+        <div class="project-card">
+          <h3>Student Form</h3>
+          <ul>
+            <li>
+              Developed a simple form on PHP and validating data using method
+              POST
+            </li>
+          </ul>
+        </div>
+
+        <hr />
+
+        <div class="project-card">
+          <h3>Students Database</h3>
+          <ul>
+            <li>
+              Developed a students database with PHP and MySQL validating data
+              and using CRUD operations. Also used some CSS to add some style
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- Recommendations -->
+    <section id="recommendations">
+      <h2>Recommendations</h2>
+      <div style="clear: both"></div>
+
+      <div class="all_recommendations" id="all_recommendations">
+        <div class="recommendation">
+          <span>&#8220;</span>
+          Jorge is a very quick learner and quickly grasps key concepts of Web
+          development. He got a great attitude & he is an excellent team player.
+          He has a curious mind and asks the right question. He takes initiative
+          within a team and has potentials to lead the team.
+          <span>&#8221;</span>
+        </div>
+
+        <div class="recommendation">
+          <span>&#8220;</span>
+          Working with Jorge has been an awesome experience. He is highly
+          knowledgable and always goes the extra step to make sure everything is
+          right. For any future projects that need her expertise I would
+          definitely want to work with him again.
+          <span>&#8221;</span>
+        </div>
+
+        <div class="recommendation">
+          <span>&#8220;</span>
+          I had worked along with Jorge during the initial phase of our venture
+          which needed Web development. He is a committed resource who has in
+          depth knowledge about the domain. He will be an asset for any
+          organisation!
+          <span>&#8221;</span>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact">
+      <div class="flex_center">
+        <fieldset>
+          <legend class="introduction">Leave a Recommendation</legend>
+          <input type="text" placeholder="Name (Optional)" /> <br />
+          <textarea
+            placeholder="Message"
+            id="new_recommendation"
+            cols="500"
+            rows="10"
+          ></textarea>
+          <div class="flex_center">
+            <button id="recommend_btn" onclick="addRecommendation()">
+              Submit
+            </button>
+          </div>
+        </fieldset>
+      </div>
+    </section>
+
+    <div class="iconbutton">
+      <a href="#home"></a>
+    </div>
+
+    <div class="popup flex_center" id="popup">
+      <img src="" alt="" />
+      <h3></h3>
+      <button onclick="showPopup(false)">Ok</button>
+    </div>
+  </body>
 </html>
