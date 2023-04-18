@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
+    <script src="script.js"></script>
     <title>Jorge's Portfolio</title>
   </head>
   <body>
@@ -44,7 +45,7 @@
         <img
           src="imgs/user.png"
           alt="https://www.flaticon.com/free-icon/user_9187532?term=image+profile&page=1&position=7&origin=search&related_id=9187532"
-          class="image_profile"
+          class="image_profile" width="400px"
         />
       </div>
 
@@ -138,6 +139,7 @@
           <h3>Calculator</h3>
           <ul>
             <li>Developed a simple calculator in PHP.</li>
+            <li><b><a href="https://github.com/KPI01/Calculadora">Github</a></b></li>
           </ul>
         </div>
 
@@ -150,6 +152,7 @@
               Developed a simple form on PHP and validating data using method
               POST
             </li>
+            <li><b><a href="https://github.com/KPI01/formulario_estudiante">Github</a></b></li>
           </ul>
         </div>
 
@@ -162,6 +165,7 @@
               Developed a students database with PHP and MySQL validating data
               and using CRUD operations. Also used some CSS to add some style
             </li>
+            <li><b><a href="https://github.com/KPI01/Base-de-datos-de-estudiantes">Github</a></b></li>
           </ul>
         </div>
       </div>
@@ -223,12 +227,12 @@
     </section>
 
     <div class="iconbutton">
-      <a href="#home"></a>
+      <a href="#home"><img src="imgs/arrow_up.png" alt="https://www.flaticon.com/free-icon/up-arrow_608336?term=arrow+up&page=1&position=5&origin=search&related_id=608336" width="24px"></a>
     </div>
 
     <div class="popup flex_center" id="popup">
-      <img src="" alt="" />
-      <h3></h3>
+      <img src="imgs/popup_check.png" alt="https://www.flaticon.com/free-icon/verified_10401190?term=check&page=1&position=11&origin=search&related_id=10401190" />
+      <h3>Thanks for leaving a recommendation!</h3>
       <button onclick="showPopup(false)">Ok</button>
     </div>
   </body>

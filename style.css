@@ -7,8 +7,8 @@ body {
 #home {
     background-color: #08072f;
     padding-bottom: 1cm;
-    margin-left: -1cm;
-    margin-right: -1cm;
+    margin-left: -.5cm;
+    margin-right: -.2cm;
     margin-top: -1cm;
     padding-top: 2cm;
     padding-bottom: 2cm;
@@ -19,7 +19,7 @@ body {
     color: lightgray;
     margin: 10px;
     padding: 20px;
-    font-size: 20px;
+    font-size: 18px;
     text-decoration: none;
 }
 .topmenu:hover {
@@ -34,6 +34,7 @@ body {
 }
 
 .profile_name {
+    margin-top: -.5cm;
     float: left;
     padding-left: 2cm;
     color: rgb(255, 255, 255);
@@ -102,6 +103,7 @@ h2 {
 
 .image_profile {
     padding-top: 2cm;
+    padding-right: 2cm;
     height: fit-content;
     vertical-align: middle;
     margin: 5px;
@@ -139,7 +141,7 @@ h2 {
     font-weight: bold;
 }
 
-.skills p {
+.skill p {
     align-items: center;
     font-size: 15px;
     color: gray;
@@ -183,7 +185,7 @@ h2 {
 
 /* Recomendations */
 
-.all_recommendation {
+.all_recommendations {
     display: flex;
     align-items: center;
     margin-left: 1in;
@@ -193,7 +195,7 @@ h2 {
 }
 
 .recommendation {
-    font-family: italic;
+    font-style: italic;
     text-align: left;
     width: 21.875rem;
     padding: 1rem;
@@ -219,5 +221,103 @@ h2 {
     width: 48px;
     height: 48px;
     border-radius: 100%;
-    background-color: #9391d0;
+    background-color: #0b068e;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    right: 3%;
+    bottom: 3%;
+    cursor: pointer;
+}
+
+.iconbutton a img {
+    margin-bottom: -.1cm;
+}
+
+/* Recommendation Form */
+
+input, textarea {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 10px;
+    width: 100%;
+}
+
+fieldset {
+    display: flexbox;
+    align-items: center;
+    justify-content: center;
+    padding: 25px;
+    margin-left: 50px;
+    margin-right: 50px;
+    border: thin solid white;
+    width: 50%;
+}
+
+/* Form Pop-up */
+
+.popup {
+    width: 500px;
+    background-color: #c1d2ff;
+    border-radius: 3mm;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    position: fixed;
+    padding: 5px;
+    visibility: hidden;
+    display: grid;
+}
+
+.popup img {
+    padding-top: 20px;
+    justify-self: center;
+}
+
+.popup button {
+    background-color: #fff;
+    border: 1px solid #0b068e;
+    color: #0b068e;
+    display: block;
+    border-radius: 6px;
+    text-align: center;
+    margin: 20px;
+    padding: 10px;
+    width: 2in;
+    font-size: 20px;
+    margin-top: 5px;
+    justify-self: center;
+}
+.popup button:hover {
+    background-color: #fff;
+    border: 2px solid #0b068e;
+    color: #0b068e;
+    display: block;
+    font-weight: bolder;
+    text-align: center;
+    cursor: pointer;
+}
+
+/* Buttons */
+
+button {
+    background-color: #fff;
+    border: 1px solid #0b068e;
+    color: #0b068e;
+    display: block;
+    border-radius: 6px;
+    margin: 50px;
+    padding: 10px;
+    width: 2in;
+    font-size: 20px;
+}
+button:hover {
+    background-color: #0b068e;
+    border: 1px solid #0b068e;
+    color: #fff;
+    display: block;
+    border-radius: 6px;
+    text-align: center;
+    cursor: pointer;
 }
